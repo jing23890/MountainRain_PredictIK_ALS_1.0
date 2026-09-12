@@ -1,0 +1,25 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.7",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "AdvancedLocomotionV4",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "AnimationModifiers"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "TargetAllowList": [
+        "Editor"
+      ],
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    }
+  ]
+}
